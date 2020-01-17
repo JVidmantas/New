@@ -19,6 +19,7 @@ public class url {
         // vietoj con.getResponseCode() pabandyk parasyti con.getResponseContent() arba kazkokia panasi fukcija turi buti
         int responseCode = con.getResponseCode();
         System.out.println("\nSending 'GET' request to URL: "+ zinute);
+        // System.out.println("Response: "+ con.getResponseMessage());    
         System.out.println("Response Code: "+ responseCode);
         // sitas kodas nereikalingas - pradzia
         BufferedReader in = new BufferedReader(new InputStreamReader(con.getInputStream()));
@@ -30,6 +31,7 @@ public class url {
         in.close();
 
         System.out.println(response.toString());
+        // sitas kodas nereikalingas - pabaiga    
 
 
 
@@ -37,7 +39,6 @@ public class url {
             System.out.println();
 
          }
-         // sitas kodas nereikalingas - pabaiga   
 
 
 
