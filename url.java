@@ -20,6 +20,7 @@ public class url {
         int responseCode = con.getResponseCode();
         System.out.println("\nSending 'GET' request to URL: "+ zinute);
         System.out.println("Response Code: "+ responseCode);
+        // sitas kodas nereikalingas - pradzia
         BufferedReader in = new BufferedReader(new InputStreamReader(con.getInputStream()));
         String inputLine;
         StringBuilder response = new StringBuilder();
@@ -36,10 +37,10 @@ public class url {
             System.out.println();
 
          }
+         // sitas kodas nereikalingas - pabaiga   
 
 
 
-
-
+        
     }
 }
