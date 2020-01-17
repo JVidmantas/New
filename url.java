@@ -16,7 +16,7 @@ public class url {
         try {
 
 
-
+        // vietoj con.getResponseCode() pabandyk parasyti con.getResponseContent() arba kazkokia panasi fukcija turi buti
         int responseCode = con.getResponseCode();
         System.out.println("\nSending 'GET' request to URL: "+ zinute);
         System.out.println("Response Code: "+ responseCode);
